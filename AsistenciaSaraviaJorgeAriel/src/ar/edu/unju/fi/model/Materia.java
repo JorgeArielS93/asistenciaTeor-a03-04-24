@@ -43,4 +43,8 @@ public class Materia {
 		this.nombre = nombre;
 	}
 
+	@Override
+	public String toString() {
+		return "Materia {" + "Código: " + codigo + ", Nombre: " + nombre + "}";
+	}
 }

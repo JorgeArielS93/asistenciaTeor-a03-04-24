@@ -50,5 +50,10 @@ public class Alumno {
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
+	
+	@Override
+	public String toString() {
+		return "Alumno {" + "Legajo: " + legajo + ", Nombre: " + nombre + ", Apellido: " + apellido + "}";
+	}
 
 }

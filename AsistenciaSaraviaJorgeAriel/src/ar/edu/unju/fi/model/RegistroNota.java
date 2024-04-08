@@ -65,4 +65,10 @@ public class RegistroNota {
 		this.notaFinal = notaFinal;
 	}
 
+	// Método toString para representar un registro de nota como una cadena de texto
+	@Override
+	public String toString() {
+		return "Registro de Nota {" + "Código: " + codigo + ", Alumno: " + alumno.getNombre() + " "
+				+ alumno.getApellido() + ", Materia: " + materia.getNombre() + ", Nota Final: " + notaFinal + "}";
+	}
 }
